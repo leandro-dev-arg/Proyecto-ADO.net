@@ -52,7 +52,6 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="PokemonNegocio.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -84,6 +83,10 @@
     <ProjectReference Include="..\Dominios\Dominios.csproj">
       <Project>{3e2336d9-13df-4c12-aac7-a7da9271b933}</Project>
       <Name>Dominios</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\negocio\negocio.csproj">
+      <Project>{1be8da9d-9056-42a4-89be-7192737858f9}</Project>
+      <Name>negocio</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
