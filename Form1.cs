@@ -51,5 +51,10 @@ namespace Proyecto_ADO.net
 
         }
 
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            frmAltaPokemon Alta =new frmAltaPokemon();
+            Alta.ShowDialog();
+        }
     }
 }
